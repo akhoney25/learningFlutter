@@ -6,11 +6,13 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     int days = 10;
 
+
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
+
       home:Scaffold(
         appBar: AppBar(
-          title: Center(
-              child: Text("Doctor App")),
+          title: Text("Doctor App"),
         ),
         body: Center(
           child: Container(
