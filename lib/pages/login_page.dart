@@ -1,5 +1,4 @@
 import 'package:doctor_project/utils/routes.dart';
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatelessWidget {
